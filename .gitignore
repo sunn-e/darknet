@@ -19,14 +19,11 @@ convnet/
 decaf/
 submission/
 cfg/
-build/darknet/*
 build_*/
 !build/darknet/YoloWrapper.cs
 .fuse*
-*.weights
 build/*.cmake
 build/*.ninja
-build/*.txt
 build/*.json
 build/CMakeFiles/
 build/detect_cuda_compute_capabilities.cu
@@ -54,4 +51,3 @@ share/
 include/darknet/
 uselib
 uselib_track
-darknet
